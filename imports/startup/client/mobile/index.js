@@ -6,18 +6,18 @@ import 'onsenui'
 import VueOnsen from 'vue-onsenui'
 Vue.use(VueOnsen)
 
-import '/imports/ui/mobile/stylesheets/onsenui.css'
-import '/imports/ui/mobile/stylesheets/onsen-css-components.css'
+import '/node_modules/onsenui/css/onsenui.css'
+import '/node_modules/onsenui/css/onsen-css-components.css'
 
 import '/imports/ui/commons/stylesheets/font-awesome.css'
 import '/imports/ui/commons/stylesheets/ionicons.css'
 import '/imports/ui/commons/stylesheets/material-design-iconic-font.css'
 
 import { routerFactory } from './routes.js'
-import MobileLayout from '/imports/ui/mobile/layouts/MobileLayout.vue'
+import AppLayout from '/imports/ui/mobile/components/AppLayout.vue'
 
 // App start
 Meteor.startup(() => {
   const router = routerFactory.create()
-  new Vue({ router, render: h => h(MobileLayout) }).$mount('app')
+  new Vue({ router, render: h => h(AppLayout) }).$mount('app')
 })

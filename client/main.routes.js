@@ -17,6 +17,6 @@ export default [
   {
     path: '/mobile',
     name: 'mobile',
-    component: '/imports/ui/mobile/pages/Home.vue',
+    component: '/imports/ui/mobile/components/Home.vue',
   }
 ]

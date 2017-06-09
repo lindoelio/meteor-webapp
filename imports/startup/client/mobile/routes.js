@@ -1,6 +1,6 @@
 // Import the router and default page for Home mobile resource
 import { RouterFactory, nativeScrollBehavior } from 'meteor/akryum:vue-router2'
-import HomeMobile from '/imports/ui/mobile/pages/Home.vue'
+import HomeMobile from '/imports/ui/mobile/components/Home.vue'
 
 // Create router instance
 export const routerFactory = new RouterFactory({

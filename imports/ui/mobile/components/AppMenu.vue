@@ -3,7 +3,7 @@
     <div class="left">
       <v-ons-back-button>Back</v-ons-back-button>
     </div>
-    <div class="center">Tigela</div>
+    <div class="center">Meteor WebApp</div>
     <div class="right">
       <v-ons-toolbar-button>
         <v-ons-icon icon="md-menu"></v-ons-icon>
