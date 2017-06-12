@@ -4,10 +4,11 @@ import Vue from 'vue'
 import 'onsenui'
 
 import VueOnsen from 'vue-onsenui'
+
 Vue.use(VueOnsen)
 
-import '/node_modules/onsenui/css/onsenui.css'
-import '/node_modules/onsenui/css/onsen-css-components.css'
+import '/imports/ui/mobile/stylesheets/onsenui.css'
+import '/imports/ui/mobile/stylesheets/onsen-css-components.css'
 
 import '/imports/ui/commons/stylesheets/font-awesome.css'
 import '/imports/ui/commons/stylesheets/ionicons.css'

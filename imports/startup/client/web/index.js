@@ -1,7 +1,7 @@
 import { Meteor } from 'meteor/meteor'
 import Vue from 'vue'
 
-import '/node_modules/bulma/css/bulma.css'
+import '/imports/ui/web/stylesheets/bulma.css'
 
 import '/imports/ui/commons/stylesheets/font-awesome.css'
 
